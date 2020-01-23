@@ -1,0 +1,11 @@
+﻿Build started 8/26/2019 6:18:28 PM.
+     1>Project "C:\Users\arjun\Documents\Visual Studio 2015\Projects\OpenGL2\OpenGL2\OpenGL2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\arjun\documents\visual studio 2015\projects\opengl2\opengl2\main.cpp(5): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+     1>Done Building Project "C:\Users\arjun\Documents\Visual Studio 2015\Projects\OpenGL2\OpenGL2\OpenGL2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.87

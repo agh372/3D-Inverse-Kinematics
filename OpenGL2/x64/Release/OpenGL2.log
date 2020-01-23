@@ -1,0 +1,35 @@
+﻿Build started 12/18/2019 6:43:59 AM.
+     1>Project "C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\OpenGL2\OpenGL2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\arjun\Documents\opengl_configuration\nanogui\ext\glad\include /IC:\Users\arjun\Documents\opengl_configuration\nanogui\ext\eigen /IC:\Users\arjun\Documents\opengl_configuration\nanogui\ext\glfw\include /IC:\Users\arjun\Documents\opengl_configuration\nanogui\ext\nanovg\src /IC:\Users\arjun\Documents\opengl_configuration\nanogui\include /IC:\Users\arjun\Documents\opengl_configuration\glew\include /IC:\Users\arjun\Documents\opengl_configuration\glfw\include /IC:\Users\arjun\Documents\opengl_configuration\glm /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt ..\Bone_Animation.cpp ..\Renderer.cpp ..\main.cpp
+         Bone_Animation.cpp
+         Renderer.cpp
+     1>c:\users\arjun\documents\visual studio 2015\code snippets\assignment6\Shader.h(51): warning C4101: 'info_log': unreferenced local variable
+     1>c:\users\arjun\documents\visual studio 2015\code snippets\assignment6\Object.h(81): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\arjun\documents\visual studio 2015\code snippets\assignment6\Object.h(175): warning C4305: 'argument': truncation from 'int' to 'float'
+     1>..\Renderer.cpp(350): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>..\Renderer.cpp(399): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\Renderer.cpp(409): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\Renderer.cpp(414): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+     1>..\Renderer.cpp(421): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+         main.cpp
+     1>c:\users\arjun\documents\visual studio 2015\code snippets\assignment6\Shader.h(51): warning C4101: 'info_log': unreferenced local variable
+     1>c:\users\arjun\documents\visual studio 2015\code snippets\assignment6\Object.h(81): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\arjun\documents\visual studio 2015\code snippets\assignment6\Object.h(175): warning C4305: 'argument': truncation from 'int' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\x64\Release\OpenGL2.exe" /NOLOGO /LIBPATH:C:\Users\arjun\Documents\opengl_configuration\nanogui\lib /LIBPATH:C:\Users\arjun\Documents\opengl_configuration\glew\lib\Release\x64 /LIBPATH:"C:\Users\arjun\Documents\opengl_configuration\glfw\lib-vc2015" nanogui.lib opengl32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\x64\Release\OpenGL2.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\x64\Release\OpenGL2.lib" /MACHINE:X64 x64\Release\Bone_Animation.obj
+         x64\Release\main.obj
+         x64\Release\Renderer.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         0 of 2725 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\x64\Release\vc120.pdb'; linking object as if no debug info
+         OpenGL2.vcxproj -> C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\x64\Release\OpenGL2.exe
+     1>Done Building Project "C:\Users\arjun\Documents\Visual Studio 2015\Code Snippets\Assignment6\OpenGL2\OpenGL2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.95
